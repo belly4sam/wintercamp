@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(/imgs/backg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}   
+
+
+header{
+    height: 10vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+i{
+    padding-right: 10px;
+}
+
+nav a{
+    color: white;
+    display:inline-flex ;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    text-shadow: black 1px 0 10px;
+}
+
+main{
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+
+
+p{
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 500px;
+    text-shadow: black 1px 0 10px;
+
+}
+
+button a{
+    color: white;
+}
+
+button{
+    font-weight: 400;
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+    background-color: black;
+}
+
+button a:hover{
+    color: red;
+    cursor: pointer;
+    background-color: black;
+    transition: 1.1s;
+    transform: scale(1.02);
+}
+
+nav :hover{
+    
+    color:rgba(252, 252, 255, 0.555);
+    cursor: pointer;
+    transition: 1.0s;
+    transform:scale(1.1)
+    
+
+}
+
+footer{
+    margin-top: 500px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 13vh;
+    
+}
+
+ol a{
+    color: white;
+
+}
+
+footer ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:30px ;
+    margin-right: 70px;
+    padding-left: 870px;
+}
+
+h2{
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer ol .fb:hover{
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    transition: 1.0s;
+    transform:scale(1.1)
+}   
+
+footer ol .yt:hover{
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    transition: 1.0s;
+    transform:scale(1.1)
+}   
+
+footer ol .ig:hover{
+    color: white;
+    cursor: pointer;
+    background-color: orangered;
+    transition: 1.0s;
+    transform:scale(1.1)
+}   
+
+footer ol .tk:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(240, 0, 40);
+    transition: 1.0s;
+    transform:scale(1.1)
+}   
+
+.logo:hover{
+    transition: 1.0s;
+    transform:scale(1.1)
+}
+
+#bell{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#home{
+    padding-left: 5px;
+    margin-top: 3px;
+}
+
+#contact{
+    padding-left: 5px;
+    margin-top: 11px;
+}
+
+
+#course{
+    padding-left: 5px;
+    margin-top: 3px;
+}
+
+#Signup{
+    padding-left: 5px;
+    margin-top: 3px;
+}
+
+#login{
+    padding-left: 5px;
+    margin-top: 3px;
+}
+
+.Homenav{
+    border-radius: 10px;
+    width: 100x;
+    height: 40px;
+    background-color: blue; 
+    padding-left: 20px;
+    color: white;
+}
